@@ -1,0 +1,35 @@
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+h4 {
+    font: arial, sans-serif;
+
+    float: right;
+    font-size: 16px;
+    margin: 0;
+    font-weight: lighter;
+    display: inline-block;
+
+    padding: 0;
+}
+
+div {
+    margin-bottom: 5px;
+
+}
+
+.row {
+
+    padding: 3px;
+    background-color: #F4F5F5;
+    margin: 3px;
+}
+
+.byline {
+    color: #9799a7;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    margin-bottom: 18px;
+}
