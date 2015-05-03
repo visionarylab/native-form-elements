@@ -3,4 +3,4 @@ This is how form elements will look inside your browser. New to forms? You're we
 
 # Screenshot
 
-https://github.com/ahadb/native-form-elements/form-elements-screen.png
+https://github.com/ahadb/native-form-elements/blob/master/form-elements-screen.png
