@@ -8,9 +8,10 @@
 <body>
 
 <div class="container">
-    <h1> Native Form Elements</h1>
+    <h1> Native HTML Form Elements</h1>
 
     <p class="byline"> These are form elements native to your browser. The following HTML5 form elements will look like the below on your operating system and browser. </p>
+    <p class="byline"> See below the HTML5 list of elements for new attributes </p>
 
     <div class="row">
         <h4>&nbsp;&#60;legend&#62</h4>
@@ -46,6 +47,20 @@
         <input>
 
     </div>
+
+    <div class="row">
+        <h4>&nbsp;&#60;disabled&#62</h4>
+        <input disabled>
+
+    </div>
+
+    <div class="row">
+        <h4>&nbsp;&#60;input autofocus&#62</h4>
+        <input autofocus>
+
+    </div>
+
+
 
     <div class="row">
         <h4>&nbsp;&#60;input type="text" placeholder="..."&#62</h4>
@@ -143,9 +158,33 @@
 
     </div>
 
+
     <div class="row">
         <h4>&nbsp;&#60;input type="image"&#62</h4>
         <input type="image">
+
+
+    </div>
+
+    <div class="row">
+        <h4>&nbsp;&#60;select&#62</h4>
+        <select>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+    </div>
+
+    <div class="row">
+        <h4>&nbsp;&#60;input type="color"&#62</h4>
+        <input type="color">
+
+    </div>
+
+    <div class="row">
+        <h4>&nbsp;&#60;input type="color" value=".."&#62</h4>
+        <input type="color" value="#ff33dd">
 
     </div>
 
@@ -157,12 +196,62 @@
         </form>
     </div>
 
+
+
+    <div class="row">
+        <h4>&nbsp;&#60;input "" autocomplete="on"&#62</h4>
+        <form action="some-form.asp" autocomplete="on">
+            <fieldset>
+                First name:<input type="text" name="fname"><br>
+                Last name: <input type="text" name="lname"><br>
+                E-mail: <input type="email" name="email" autocomplete="off"><br>
+                <input type="submit">
+            </fieldset>
+        </form>
+        <p class = "byline2">View source to see how this works</p>
+
+
+    </div>
+
     <div class="row">
         <h4>&nbsp;&#60;textarea&#62</h4>
         <form>
             <textarea name="" id="" cols="30" rows="2"></textarea>
         </form>
     </div>
+
+    <div class="row">
+        <h4>&nbsp;&#60;input type="progress"&#62</h4>
+        <progress></progress>
+
+    </div>
+
+    <div class="row">
+        <h4>&nbsp;&#60;input type="progress" max=".." value=".."&#62</h4>
+        <progress max="100" value="33"></progress>
+
+    </div>
+
+    <div class="row">
+        <h4>&nbsp;&#60;input type="text" list="datalist"&#62</h4>
+        <input type="text" list="datalist">
+        <datalist id="datalist">
+            <option>First Choice</option>
+            <option>Second Choice</option>
+            <option>Third Choice</option>
+        </datalist>
+
+    </div>
+
+    <h2> Native HTML5 Attributes</h2>
+
+    <p class="byline"> You'll want to be familiar with some of the newer attributes as well and ensure that they are cross browser compliant if you use them in your production code</p>
+
+<div class = "row">
+   Placeholder <h4>&nbsp;&#60;input type="text" placeholder=".."&#62</h4></div>
+    <div class = "row">Maxlength <h4>&nbsp;&#60;input type="text" maxlength="100"&#62</h4></div>
+    <div class = "row">Minlength <h4>&nbsp;&#60;input type="text" minlength="10"&#62</h4></div>
+    <div class = "row">Pattern <h4>&nbsp;&#60;input type="text" pattern="/$2/*`"&#62</h4></div>
 
 
 
